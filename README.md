@@ -1,1 +1,10 @@
 # TableDrive-TopDown-Parsi-Calculadora
+
+Gramatica Utilizada
+
+E  → T E'
+E' → + T E' | - T E' | ε
+T  → F T'
+T' → * F T' | / F T' | ε
+F  → ( E ) | id | number
+
